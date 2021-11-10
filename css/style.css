@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+}
+
+h2, p {
+    color: goldenrod;
+}
+
+.pokemons-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pokemon-card {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 1px solid black;
+    margin-block-start: 1rem;
+    text-align: center;
+}
+
+h2 {
+    text-transform: capitalize;
+}
