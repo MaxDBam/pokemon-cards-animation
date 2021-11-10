@@ -4,7 +4,7 @@ var gPokeImgs = [];
 
 function getPokemons(onSuccess) {
     var arrayOfPokemons = [];
-    for (let i = 1; i < 21; i++) {
+    for (let i = 1; i < 152; i++) {
         $.get(`https://pokeapi.co/api/v2/pokemon/${i}`, (pokemon) => {
             const pokemonImgs = [];
             for( let key in pokemon.sprites) {
